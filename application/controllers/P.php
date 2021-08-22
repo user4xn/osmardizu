@@ -92,7 +92,7 @@
             // Put This On Uploader , by user4xn
             // return $this->compressimg($this->upload->data(),$config['upload_path']);
         }
-
+		//  Valorant;
 		function security(){
 			$data['page'] = 'security';
 			$this->template->load('main_page/base', 'main_page/form_security',$data);
